@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK\Driver">
+      <UniqueIdentifier>{ca792a7a-6516-496e-81ef-d3dbe1f55667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Security">
+      <UniqueIdentifier>{29cb6548-023b-4346-9120-070d08f419d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Render">
+      <UniqueIdentifier>{948024f1-0cd7-4e79-807d-d160147a8614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Render\imgui">
+      <UniqueIdentifier>{d2ddd105-ab4f-4e3a-9cdb-f851cc6a3cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Engine">
+      <UniqueIdentifier>{da02fe68-6599-4666-ba80-a30d3b4c981d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Engine\Math">
+      <UniqueIdentifier>{34bd545b-6662-4b64-b7a2-a73148e30b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Engine\Player">
+      <UniqueIdentifier>{1f89c0bd-717d-4f60-a21b-795f5d619e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Engine\World">
+      <UniqueIdentifier>{648730aa-c7a2-4751-9aa4-b94ff09eface}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\elements.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>SDK\Engine\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RustExternal.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>SDK\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>SDK\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Hijack.hpp">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.hpp">
+      <Filter>SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>SDK\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlayer.hpp">
+      <Filter>SDK\Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.hpp">
+      <Filter>SDK\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseProjectile.hpp">
+      <Filter>SDK\Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>SDK\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\byte.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\elements.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>SDK\Render\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>SDK\Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.hpp">
+      <Filter>SDK\Engine\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
